@@ -6,6 +6,7 @@ public class main {
         Defaultplayer player = new Defaultplayer("Béla");
         Menu t = new Menu();
         t.main();
+        Mageplayer mage = new Mageplayer("józsi");
 
     }
 }

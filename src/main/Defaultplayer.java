@@ -2,7 +2,7 @@ package main;
 
 public class Defaultplayer {
     protected String name;
-    protected final int hp = 100;
+    protected int hp = 100;
     protected int stamina = 10;
     protected int strength = 10;
     protected int agility = 10;
