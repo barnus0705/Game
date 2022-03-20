@@ -3,17 +3,13 @@ package main;
 public class Defaultplayer {
     protected String name;
     protected final int hp = 100;
-    protected int stamina;
-    protected int strength;
-    protected int agility;
-    protected int intelect;
+    protected int stamina = 10;
+    protected int strength = 10;
+    protected int agility = 10;
+    protected int intelect = 10;
 
-    public Defaultplayer(String name,int stamina,int strength,int agility,int intelect){
+    public Defaultplayer(String name){
         this.name = name;
-        this.stamina = stamina;
-        this.strength = strength;
-        this.agility = agility;
-        this.intelect = intelect;
     }
 
     public String getName() {
