@@ -7,6 +7,21 @@ public class Barbarplayer extends Defaultplayer{
         strength = 14;
         agility = 8;
         intelect = 3;
-        hp = hp-(100-(10*stamina));
+        hp = stamina*10;
+    }
+    public void meele(Enemy enemy){
+        enemy.setHp(enemy.hp-strength+3);
+    }
+    public void shoot(Enemy enemy){
+        enemy.setHp(enemy.hp-agility+1);
+    }
+    public void fireball(Enemy enemy){
+        enemy.setHp(enemy.hp-intelect);
+    }
+    public void heal(Defaultplayer player){
+        player.setHp(player.hp+25);
+        player.agility--;
+        player.intelect--;
+        player.strength--;
     }
 }

@@ -8,7 +8,23 @@ public class Mageplayer extends Defaultplayer{
         agility = 8;
         strength = 8;
         stamina = 7;
-        hp = hp-(100-(stamina*10));
+        hp = stamina*10;
+
+    }
+    public void meele(Enemy enemy){
+        enemy.setHp(enemy.hp-strength);
+    }
+    public void shoot(Enemy enemy){
+        enemy.setHp(enemy.hp-agility);
+    }
+    public void fireball(Enemy enemy){
+        enemy.setHp(enemy.hp-(intelect*2));
+    }
+    public void heal(Defaultplayer player){
+        player.setHp(player.hp+25);
+        player.agility--;
+        player.intelect--;
+        player.strength--;
     }
 
 
