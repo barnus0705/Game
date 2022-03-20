@@ -27,6 +27,8 @@ public class Menu {
                                     break;
                                 }else{
                                     rossz();
+                                    lista();
+                                    break;
                                 }
                             }
                         }else if(solution == 2){
@@ -42,6 +44,8 @@ public class Menu {
                                     break;
                                 }else{
                                     rossz();
+                                    lista();
+                                    break;
                                 }
                             }
                         }else if(solution == 3){
@@ -57,6 +61,8 @@ public class Menu {
                                     break;
                                 }else{
                                     rossz();
+                                    lista();
+                                    break;
                                 }
                             }
                         }else if (solution == 4){
@@ -72,6 +78,8 @@ public class Menu {
                                     break;
                                 }else{
                                     rossz();
+                                    lista();
+                                    break;
                                 }
                             }
                         }else if(solution == 5){
