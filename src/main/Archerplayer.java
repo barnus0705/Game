@@ -18,10 +18,14 @@ public class Archerplayer extends Defaultplayer{
     public void fireball(Enemy enemy){
         enemy.setHp(enemy.hp-intelect-5);
     }
-    public void heal(Defaultplayer player){
-        player.setHp(player.hp+25);
-        player.agility--;
-        player.intelect--;
-        player.strength--;
+    public void heal(Archerplayer player){
+        if(player.hp < player.stamina*10 && player.hp+25 < player.stamina*10) {
+            player.setHp(player.hp + 25);
+            player.agility--;
+            player.intelect--;
+            player.strength--;
+        }else{
+            System.out.println("A gyógyítás nem volt lehetséges.");
+        }
     }
 }
