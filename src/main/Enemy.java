@@ -31,6 +31,7 @@ public class Enemy extends Defaultplayer {
     public void fireball(Defaultplayer enemy) {
         enemy.setHp(enemy.hp - intelect);
     }
+
     public void meele(Archerplayer enemy) {
         enemy.setHp(enemy.hp - strength);
     }
@@ -42,6 +43,7 @@ public class Enemy extends Defaultplayer {
     public void fireball(Archerplayer enemy) {
         enemy.setHp(enemy.hp - intelect);
     }
+
     public void meele(Barbarplayer enemy) {
         enemy.setHp(enemy.hp - strength);
     }

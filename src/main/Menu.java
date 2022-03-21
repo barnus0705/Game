@@ -238,13 +238,13 @@ public class Menu {
             int solution = in.nextInt();
             System.out.println("-----------------");
             if(solution == 1){
-                player.meele(Enemy.lvl1);
+                player.meele(enemy);
                 System.out.println(player.getName()+" megütötte "+enemy.getName()+"-t");
             }else if (solution == 2){
-                player.shoot(Enemy.lvl1);
+                player.shoot(enemy);
                 System.out.println(player.getName()+" meglőtte "+enemy.getName()+"-t");
             }else if (solution == 3){
-                player.fireball(Enemy.lvl1);
+                player.fireball(enemy);
                 System.out.println(player.getName()+" tűzgolyóval eltalálta "+enemy.getName()+"-t");
             }else if (solution == 4){
                 player.heal(player);
@@ -255,16 +255,16 @@ public class Menu {
             }
             int rndszam = getRandomNumber(1,3);
             if(rndszam == 1){
-                Enemy.lvl1.meele(player);
+                enemy.meele(player);
                 System.out.println(enemy.getName()+" megütötte "+player.getName()+"-t");
             }else if (rndszam == 2){
-                Enemy.lvl1.shoot(player);
+                enemy.shoot(player);
                 System.out.println(enemy.getName()+" meglőtte "+player.getName()+"-t");
             }else if (rndszam == 3){
-                Enemy.lvl1.fireball(player);
+                enemy.fireball(player);
                 System.out.println(enemy.getName()+" tűzgolyóval eltalálta "+player.getName()+"-t");
             }
-            if (Enemy.lvl1.getHp()<0){
+            if (enemy.getHp()<0){
                 System.out.println(player.getName()+" megölte "+enemy.getName()+"-t");
                 break;
             }
@@ -291,13 +291,13 @@ public class Menu {
             int solution = in.nextInt();
             System.out.println("-----------------");
             if(solution == 1){
-                player.meele(Enemy.lvl1);
+                player.meele(enemy);
                 System.out.println(player.getName()+" megütötte "+enemy.getName()+"-t");
             }else if (solution == 2){
-                player.shoot(Enemy.lvl1);
+                player.shoot(enemy);
                 System.out.println(player.getName()+" meglőtte "+enemy.getName()+"-t");
             }else if (solution == 3){
-                player.fireball(Enemy.lvl1);
+                player.fireball(enemy);
                 System.out.println(player.getName()+" tűzgolyóval eltalálta "+enemy.getName()+"-t");
             }else if (solution == 4){
                 player.heal(player);
@@ -308,16 +308,16 @@ public class Menu {
             }
             int rndszam = getRandomNumber(1,3);
             if(rndszam == 1){
-                Enemy.lvl1.meele(player);
+                enemy.meele(player);
                 System.out.println(enemy.getName()+" megütötte "+player.getName()+"-t");
             }else if (rndszam == 2){
-                Enemy.lvl1.shoot(player);
+                enemy.shoot(player);
                 System.out.println(enemy.getName()+" meglőtte "+player.getName()+"-t");
             }else if (rndszam == 3){
-                Enemy.lvl1.fireball(player);
+                enemy.fireball(player);
                 System.out.println(enemy.getName()+" tűzgolyóval eltalálta "+player.getName()+"-t");
             }
-            if (Enemy.lvl1.getHp()<0){
+            if (enemy.getHp()<0){
                 System.out.println(player.getName()+" megölte "+enemy.getName()+"-t");
                 break;
             }
@@ -344,13 +344,13 @@ public class Menu {
             int solution = in.nextInt();
             System.out.println("-----------------");
             if(solution == 1){
-                player.meele(Enemy.lvl1);
+                player.meele(enemy);
                 System.out.println(player.getName()+" megütötte "+enemy.getName()+"-t");
             }else if (solution == 2){
-                player.shoot(Enemy.lvl1);
+                player.shoot(enemy);
                 System.out.println(player.getName()+" meglőtte "+enemy.getName()+"-t");
             }else if (solution == 3){
-                player.fireball(Enemy.lvl1);
+                player.fireball(enemy);
                 System.out.println(player.getName()+" tűzgolyóval eltalálta "+enemy.getName()+"-t");
             }else if (solution == 4){
                 player.heal(player);
@@ -361,16 +361,16 @@ public class Menu {
             }
             int rndszam = getRandomNumber(1,3);
             if(rndszam == 1){
-                Enemy.lvl1.meele(player);
+                enemy.meele(player);
                 System.out.println(enemy.getName()+" megütötte "+player.getName()+"-t");
             }else if (rndszam == 2){
-                Enemy.lvl1.shoot(player);
+                enemy.shoot(player);
                 System.out.println(enemy.getName()+" meglőtte "+player.getName()+"-t");
             }else if (rndszam == 3){
-                Enemy.lvl1.fireball(player);
+                enemy.fireball(player);
                 System.out.println(enemy.getName()+" tűzgolyóval eltalálta "+player.getName()+"-t");
             }
-            if (Enemy.lvl1.getHp()<0){
+            if (enemy.getHp()<0){
                 System.out.println(player.getName()+" megölte "+enemy.getName()+"-t");
                 break;
             }
@@ -397,13 +397,13 @@ public class Menu {
             int solution = in.nextInt();
             System.out.println("-----------------");
             if(solution == 1){
-                player.meele(Enemy.lvl1);
+                player.meele(enemy);
                 System.out.println(player.getName()+" megütötte "+enemy.getName()+"-t");
             }else if (solution == 2){
-                player.shoot(Enemy.lvl1);
+                player.shoot(enemy);
                 System.out.println(player.getName()+" meglőtte "+enemy.getName()+"-t");
             }else if (solution == 3){
-                player.fireball(Enemy.lvl1);
+                player.fireball(enemy);
                 System.out.println(player.getName()+" tűzgolyóval eltalálta "+enemy.getName()+"-t");
             }else if (solution == 4){
                 player.heal(player);
@@ -414,16 +414,16 @@ public class Menu {
             }
             int rndszam = getRandomNumber(1,3);
             if(rndszam == 1){
-                Enemy.lvl1.meele(player);
+                enemy.meele(player);
                 System.out.println(enemy.getName()+" megütötte "+player.getName()+"-t");
             }else if (rndszam == 2){
-                Enemy.lvl1.shoot(player);
+                enemy.shoot(player);
                 System.out.println(enemy.getName()+" meglőtte "+player.getName()+"-t");
             }else if (rndszam == 3){
-                Enemy.lvl1.fireball(player);
+                enemy.fireball(player);
                 System.out.println(enemy.getName()+" tűzgolyóval eltalálta "+player.getName()+"-t");
             }
-            if (Enemy.lvl1.getHp()<0){
+            if (enemy.getHp()<0){
                 System.out.println(player.getName()+" megölte "+enemy.getName()+"-t");
                 break;
             }
